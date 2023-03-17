@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestras Sucursales</title>
+    <link rel="stylesheet" href="../Estilos/bootstrap.css">
+    <link rel="stylesheet" href="../Estilos/estilos.css">
+</head>
+<body>
+    <header id="sucursales">
+        <nav class="contenedor">
+            <a href="../index.html" id="logo">
+                <img src="../img/logo.png" alt="logo">
+            </a>
+            
+            <div class="icono">
+                <a href="#" class="icono2"><img src="../img/search.png" alt="busqueda"></a>
+                <a href="#" class="icono2"><img src="../img/user.png" alt="comunidad"></a>
+                <a href="#" class="icono2"><img src="../img/carrito-de-compras.png" alt="carrito"></a>
+            </div>
+
+            <div class="menu">
+                <a href="../index.html" class="comunes">FLORENCIA</a>
+                <a href="./shop.html" class="comunes">SHOP</a>
+                <a href="#"  id="activo" class="comunes">SUCURSALES</a>
+                <a href="./contacto.html" class="comunes">CONTACTO</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="banner"> 
+        <div class="titulo">
+            <div class="contenedor">
+              <h2>SUCURSALES</h2>
+            </div>  
+        </div>
+    </section>  
+    
+    <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-4">
+             <h3>Montevideo</h3>
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbBJREFUSEu1le01REEQRO9GgAgQASJABIgAESASRIAIEAEiIANkQASc63Q7s+PNm7c/zJ+3Zz6qqqt6Zmf885j9Mz5TCNaAE2AH2AxBL8AjcAm8jYnsEVwE+BiGe85aG8YIVLkRB28AgZxzWMkpcFhUtDVE0iJI5Z9hTQLXGBJp1VLYJencGCLQ89fYpSrBnTuvMtAW/ZfkOfav15kMEaR6A1SR4AIsV+I+AAVIch125ZnfrUME6X2qvwP2gCfgKE4KuA3cA/tFFZ6dy2KI4CtAck2lelyWnzaq3nlHfe5nchGCFUAyRxK8x++FCOwKy68tcv44CK6iu9IiL+FD2Ojv0QwyMLvEwFWrt9pUDlvYDtImm8Eu875kTk2LDO02Dqa/kkhWPhWC5jPhdxU4AGyK0QpczANaYkVjQ8VaVubRJcgqDNUqMtyayLvhpfT7R32rixIkw/a72ygh74x3ZC7c3D/22KlKqwxXm7KD8mw2g2Gb0WCVvee6fMxKkhJc5a3HcNIfTk1iZWbUe2mbbTpkd0ni+iTwXsg1kSTZsrZm05Yp96DT+tOXeyFPR2rs/AZz92gZw5u8WQAAAABJRU5ErkJggg=="/>
+             <p>Piso 2 del Shopping Punta Carretas.</p>  
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
+             <p>florenciamuebleria@gmail.com</p>
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWlJREFUSEu1leExBEEQRt9FgAgQASJABkRABogAESACZEAEyIAICEEG1Kvqrhpjdnduq67/3G3XbL/ub7p7F6zYFiuOzxBgHXgJ+CHwPTeRFiCD70bQd2A2pAaUwT8CsAPMhtSAV2AfMPhBAPTNhtSAnwi6UehuVQnxV7m6bQhQ+kvZ3orKuiBDEpml2Wrqr0Qp21IdVQMegBPgArgNwBewGdIktCt7D9WAU+A+sk+tE3oHnHdHjoOtNjXjNWAb8P8W8BmXvhe+bk5r0DLjR8CKNOU6i/s4LiCTE98CZMYGzssuWzWBz8ANMDrxQ7voCrgMWZTKzhGi30pKG534sW2aU12vCSsU5KQLHp34MUApi4HUfqxNmxM/9T3wpafYT8piA1wPdFJz4qcAqXXeST5biWDlc33UWzjlG/zgtPo8tT+KOWmd+bdOeisog5mtELMU6nrXrET/n101B9A9xa1dtNTLPYdXXsEv2GhbGTPtGlUAAAAASUVORK5CYII="/>
+             <p>26965428</p>          
+          </div>
+          <div class="col-sm-8">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.295801839332!2d-56.160774285041214!3d-34.92411768202754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f819d6fa00fd3%3A0xb24389518c0c3751!2sPunta%20Carretas%20Shopping!5e0!3m2!1ses-419!2suy!4v1678985114064!5m2!1ses-419!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+
+        <div class="row" id="row2">
+            <div class="col-8">
+                <img src="../img/foto1.jpg" alt="local1" class="local">
+            </div>
+            <div class="col-4">
+             <h3>Salto</h3>
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbBJREFUSEu1le01REEQRO9GgAgQASJABIgAESASRIAIEAEiIANkQASc63Q7s+PNm7c/zJ+3Zz6qqqt6Zmf885j9Mz5TCNaAE2AH2AxBL8AjcAm8jYnsEVwE+BiGe85aG8YIVLkRB28AgZxzWMkpcFhUtDVE0iJI5Z9hTQLXGBJp1VLYJencGCLQ89fYpSrBnTuvMtAW/ZfkOfav15kMEaR6A1SR4AIsV+I+AAVIch125ZnfrUME6X2qvwP2gCfgKE4KuA3cA/tFFZ6dy2KI4CtAck2lelyWnzaq3nlHfe5nchGCFUAyRxK8x++FCOwKy68tcv44CK6iu9IiL+FD2Ojv0QwyMLvEwFWrt9pUDlvYDtImm8Eu875kTk2LDO02Dqa/kkhWPhWC5jPhdxU4AGyK0QpczANaYkVjQ8VaVubRJcgqDNUqMtyayLvhpfT7R32rixIkw/a72ygh74x3ZC7c3D/22KlKqwxXm7KD8mw2g2Gb0WCVvee6fMxKkhJc5a3HcNIfTk1iZWbUe2mbbTpkd0ni+iTwXsg1kSTZsrZm05Yp96DT+tOXeyFPR2rs/AZz92gZw5u8WQAAAABJRU5ErkJggg=="/>
+             <p>Bv. Artigas 586</p>  
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
+             <p>florenciamuebleria@gmail.com</p>
+             <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWlJREFUSEu1leExBEEQRt9FgAgQASJABkRABogAESACZEAEyIAICEEG1Kvqrhpjdnduq67/3G3XbL/ub7p7F6zYFiuOzxBgHXgJ+CHwPTeRFiCD70bQd2A2pAaUwT8CsAPMhtSAV2AfMPhBAPTNhtSAnwi6UehuVQnxV7m6bQhQ+kvZ3orKuiBDEpml2Wrqr0Qp21IdVQMegBPgArgNwBewGdIktCt7D9WAU+A+sk+tE3oHnHdHjoOtNjXjNWAb8P8W8BmXvhe+bk5r0DLjR8CKNOU6i/s4LiCTE98CZMYGzssuWzWBz8ANMDrxQ7voCrgMWZTKzhGi30pKG534sW2aU12vCSsU5KQLHp34MUApi4HUfqxNmxM/9T3wpafYT8piA1wPdFJz4qcAqXXeST5biWDlc33UWzjlG/zgtPo8tT+KOWmd+bdOeisog5mtELMU6nrXrET/n101B9A9xa1dtNTLPYdXXsEv2GhbGTPtGlUAAAAASUVORK5CYII="/>
+             <p>46965888</p>     
+            </div>
+        </div>
+
+        <div class="row" id="row3">
+            <div class="col-4">
+                <h3>Florida</h3>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAbBJREFUSEu1le01REEQRO9GgAgQASJABIgAESASRIAIEAEiIANkQASc63Q7s+PNm7c/zJ+3Zz6qqqt6Zmf885j9Mz5TCNaAE2AH2AxBL8AjcAm8jYnsEVwE+BiGe85aG8YIVLkRB28AgZxzWMkpcFhUtDVE0iJI5Z9hTQLXGBJp1VLYJencGCLQ89fYpSrBnTuvMtAW/ZfkOfav15kMEaR6A1SR4AIsV+I+AAVIch125ZnfrUME6X2qvwP2gCfgKE4KuA3cA/tFFZ6dy2KI4CtAck2lelyWnzaq3nlHfe5nchGCFUAyRxK8x++FCOwKy68tcv44CK6iu9IiL+FD2Ojv0QwyMLvEwFWrt9pUDlvYDtImm8Eu875kTk2LDO02Dqa/kkhWPhWC5jPhdxU4AGyK0QpczANaYkVjQ8VaVubRJcgqDNUqMtyayLvhpfT7R32rixIkw/a72ygh74x3ZC7c3D/22KlKqwxXm7KD8mw2g2Gb0WCVvee6fMxKkhJc5a3HcNIfTk1iZWbUe2mbbTpkd0ni+iTwXsg1kSTZsrZm05Yp96DT+tOXeyFPR2rs/AZz92gZw5u8WQAAAABJRU5ErkJggg=="/>
+                <p>Bv. España 1245</p>  
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR1JREFUSEvdleFNw0AMhb9MABsAG8AEwAawAZ2gMAl0ArpB2QCYAEaADdoJQB+ypVNIyjVRhFT/SZSz37OffU7DxNZMjM9+EVwAj8DxSNk+gBnwIk4pkQdHI8EzXKyTNsFXnJ4B7wOJToG3iP1JvqwgCdZR4tOOJFch8eFfBIn7ANxVkug7b/n2ViDofTjbqGvAqrrMbFeAA6KVsb0EHqil4AcBftnRF32eAUk2QWLvUuqtBGZjoH04j+xugUXxnlW+AuqfVVYTlL1IfZfx8SaeEkpc2s4EBpuh4EqmKYkkXZM2iEBQNS8r6LsrgwkqJ7a+ybWAbb//q8AxyyYOzT7jPnMrl7vI22gTx25UwZ2wX+t6bNad8fv1y5xEom9+ED0ZymZNKwAAAABJRU5ErkJggg=="/>
+                <p>florenciamuebleria@gmail.com</p>
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAWlJREFUSEu1leExBEEQRt9FgAgQASJABkRABogAESACZEAEyIAICEEG1Kvqrhpjdnduq67/3G3XbL/ub7p7F6zYFiuOzxBgHXgJ+CHwPTeRFiCD70bQd2A2pAaUwT8CsAPMhtSAV2AfMPhBAPTNhtSAnwi6UehuVQnxV7m6bQhQ+kvZ3orKuiBDEpml2Wrqr0Qp21IdVQMegBPgArgNwBewGdIktCt7D9WAU+A+sk+tE3oHnHdHjoOtNjXjNWAb8P8W8BmXvhe+bk5r0DLjR8CKNOU6i/s4LiCTE98CZMYGzssuWzWBz8ANMDrxQ7voCrgMWZTKzhGi30pKG534sW2aU12vCSsU5KQLHp34MUApi4HUfqxNmxM/9T3wpafYT8piA1wPdFJz4qcAqXXeST5biWDlc33UWzjlG/zgtPo8tT+KOWmd+bdOeisog5mtELMU6nrXrET/n101B9A9xa1dtNTLPYdXXsEv2GhbGTPtGlUAAAAASUVORK5CYII="/>
+                <p>46965753</p>     
+               </div>
+            <div class="col-8">
+                <img src="../img/foto1.jpg" alt="local1" class="local">
+            </div>
+        </div>
+    </div>   
+    
+    <footer>
+        <div class="contenedor">
+           <a href="index.html" id="logofinal"><img src="../img/logo.png" alt="logo"></a>
+           <p>
+               Florencia Muebleria te da las gracias por visitarnos. 
+           </p>
+           <div class="seguinos">
+             <a href="https://es-la.facebook.com/" target="_blank" class="redes" id="face"><img src="../img/facebook.png" alt="facebook"></a>
+             <a href="https://twitter.com/" target="_blank" class="redes" id="tw"><img src="../img/tw.png" alt="twitter"></a>
+             <a href="https://www.instagram.com/" target="_blank" class="redes" id="insta"><img src="../img/instagram.png" alt="instagram"></a>
+           </div>
+        </div>
+    </footer>
+</body>
+</html>
