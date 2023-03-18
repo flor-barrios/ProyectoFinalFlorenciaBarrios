@@ -98,6 +98,10 @@ video{
     color: black;
 }
 
+.texto2{
+    display: none;
+}
+
 article .articulos h3{
     margin-top: 1em;
 }
@@ -232,8 +236,13 @@ article{
     text-align: center;
 }
 
+.cajitas h4{
+    margin-top: 0.6em;
+}
+
 .cajitas h3{
     margin-top: 0.5em;
+
 }
 
 .cajitas a{
@@ -245,7 +254,7 @@ article{
     padding: 0.5em;
     display: flex;
     float: right;
-    margin-top: 3.1em;
+    margin-top: 2.5em;
     text-shadow: none;
     opacity: 0.8;
     transition: all 0.2s;
@@ -338,9 +347,9 @@ textarea{
 }
 
 button{
-    text-decoration: none;
-    color: #645832;
-    border: 1px solid #ebc8bc;
+    text-decoration: none; 
+    color: #645832; 
+    border: 1px solid #ebc8bc; 
     background-color: white;
     border-radius: 10px;
     padding: 0.5em;
@@ -416,7 +425,7 @@ footer p{
 }
 
 .titulo h2{
-    padding: 100px;
+    padding: 57px;
     font-size: 2em;
     font-family: 'Bitter', serif !important;
     font-weight: 600;
@@ -602,11 +611,7 @@ ul{
 }
 
 #row2{
-    padding: 50px;
-}
-
-#row3{
-    padding: 50px;
+    padding: 50px 0px 0px;
 }
 
 .local{
@@ -619,13 +624,13 @@ ul{
     background: rgba(255, 255, 255, 0.795);
 }
 
-.row g-3{
-    max-width: 50%;
-}
-
 .mapa{
     width: 100%;
     height: 100%;
+}
+
+#formcon label{
+    font-size: 12px;
 }
 
 @media all and (min-width:768px){
@@ -810,6 +815,10 @@ ul{
 
     .texto4{
         display: none;
+    }
+
+    #formcon{
+        width: 60%;
     }
 
 }
@@ -1011,6 +1020,10 @@ ul{
 
     #detalles{
         width: 60%;
+    }
+
+    #formcon{
+        width: 50%;
     }
     
 }
