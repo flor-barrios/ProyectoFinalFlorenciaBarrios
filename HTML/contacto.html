@@ -55,23 +55,25 @@
       </div>
     </div>  
 
-    <form class="row g-3" id="formcon">
-      <div class="col-md-6">
-        <label for="inputName" class="form-label">Nombre</label>
-        <input type="name" class="form-control" id="inputName">
-      </div>
-      <div class="col-md-6">
-        <label for="inputEmail4" class="form-label">Email</label>
-        <input type="email" class="form-control" id="inputEmail4">
-      </div>
-      <div class="form-floating">
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
-        <label for="floatingTextarea2">Comments</label>
-      </div>
-      <div class="col-12">
-        <button type="submit" class="btn btn-primary">Sign in</button>
-      </div>
-    </form>
+    <div class="formcon">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="name" class="form-control" id="inputName" placeholder="Escriba su nombre..." required>
+        </div>
+        <div class="col-md-6">
+          <label for="inputEmail4" class="form-label">Email</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Escriba su email..." required>
+        </div>
+        <div class="form-floating">
+          <textarea class="form-control" placeholder="Deja un comentario aquí" id="floatingTextarea2" style="height:  100px"></textarea>
+          <label for="floatingTextarea2">Comments</label>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+      </form>
+    </div>
 
     <footer>
       <div class="contenedor">

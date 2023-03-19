@@ -629,8 +629,63 @@ ul{
     height: 100%;
 }
 
-#formcon label{
+.formcon{
+    display: flex;
+    justify-content: center;
+}
+
+.formcon label{
     font-size: 12px;
+}
+
+.formcon button{
+    text-decoration: none; 
+    color: #645832; 
+    border: 1px solid #ebc8bc; 
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.5em;
+    display: flex;
+    float: right;
+    text-shadow: none;
+    opacity: 0.8;
+    transition: all 0.2s;
+    font-size: 0.8em;
+}
+
+.formcon button:hover{
+    opacity: 1;
+}
+
+.formcon label{
+    text-transform: uppercase;
+    font-size: 12px; 
+    font-weight: bold;
+    color:black;
+}
+
+.formcon input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #ebc8bc;
+    font-weight: bold;
+}
+
+.fromcon input:hover{
+    background-color:  #ebc8bc;
+}
+
+.fromcon input ::placeholder{
+    color: #ebc8bc;
+    font-size: 14px; 
+}
+
+.fromcon textarea{
+    resize: none !important;
+    border: 2px solid #ebc8bc !important;
+    border-radius: 0px !important;
+    font-weight: bold !important;
+    margin-top: 5px !important;
 }
 
 @media all and (min-width:768px){
