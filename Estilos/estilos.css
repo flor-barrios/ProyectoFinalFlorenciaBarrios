@@ -610,10 +610,6 @@ ul{
     background: rgba(255, 255, 255, 0.795);
 }
 
-#row2{
-    padding: 50px 0px 0px;
-}
-
 .local{
     max-width: 65%;
 }
@@ -871,11 +867,6 @@ ul{
     .texto4{
         display: none;
     }
-
-    #formcon{
-        width: 60%;
-    }
-
 }
 
 @media all and (min-width:1024px){
@@ -1075,10 +1066,6 @@ ul{
 
     #detalles{
         width: 60%;
-    }
-
-    #formcon{
-        width: 50%;
     }
     
 }
