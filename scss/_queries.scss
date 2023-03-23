@@ -1,0 +1,420 @@
+@media all and (min-width: 768px){
+    #logo{
+        width: 20%;
+    }
+
+    .icono{
+        width: 19%;
+        order: 3;
+    }
+
+    .icono2{
+        padding-left: 5px;
+    }
+
+    .menu{
+        text-align: right;
+
+        a{
+            font-size: 1.2em;
+        }
+    }
+
+    .banner{ 
+        h2{
+        font-size: 3em;
+        }
+
+        article{
+            width: 42%;
+            margin: 0px 2%;
+        }
+    }    
+
+    .articulos{ 
+        top: 386px;
+
+        article:nth-of-type(2){
+        display: block;
+        }
+    }    
+
+    article .articulos{
+        width: 40%;
+        top: 400px;
+    }
+
+    #inicio{
+        top: 129px;
+        width: 60%;
+    }
+
+    .contenedor-grid{
+        margin: 8em auto 2em;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        #caja1{
+            grid-column: span 2;
+            grid-row: span 1;
+            background-image: url(../img/foto1.jpg) !important;
+        }
+        
+        #caja2{
+            background-image: url(../img/foto4.jpg) !important;
+        }
+        
+        #caja3{
+            background-image: url(../img/foto5.png) !important;
+        }
+    }
+
+    .cajitas{
+        p{
+        display: block;
+        margin-top: 1em;
+        }
+
+        a{
+        float: left;
+        margin-top: 1.8em;
+        }
+
+        .flex img{
+        width: 30%;
+        }
+    }
+
+    form{
+        margin: 1em;
+
+        fieldset{
+            div{
+            display: inline-block;
+            }   
+        }
+    
+        .columna1{
+        width: 48%;
+        }
+    
+        .columna2{
+        width: 48%;
+        }
+
+        .columna3{
+        width: 100%;
+        }
+
+        textarea{
+        width: 625px;
+        height: 70px;
+        }
+
+        .datos{
+            input{
+                width: 97%;
+                margin-bottom: 33px;
+            }
+        }    
+    }
+
+    .titulo{
+        h2{
+            font-size: 1.5em;
+        }
+    }    
+
+    .lookbook{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        div{
+            width: 48%;
+        }
+    }
+
+    .contenedor-grid3{
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        #caja19, #caja20, #caja21{
+            display: block;
+            width: 32%;
+        }
+    }
+
+    .fotoproducto{
+        width: 48%;
+
+        .subfotos{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+    }
+
+    .hoja2medio{
+        width: 48%;
+    }
+
+    #caja24{
+        display: block;
+    }
+
+    #caja22, #caja23 ,#caja24{
+        width: 32%;
+    }
+
+    #arriba{
+        background-size: cover;
+
+        h2{
+            font-size: 4em;
+        }
+
+        p{
+            font-size: 1.5em;
+            bottom: 5%;
+        }
+    }
+
+    .texto1{
+        display: none;
+    }
+
+    .texto2{
+        display: block;
+    }
+
+    .texto4{
+        display: none;
+    }
+
+}
+
+@media all and (min-width:1024px){
+    .icono{
+        width: 15%;
+    }
+
+    .menu{ 
+        a{
+            padding-right: 5px;
+        }
+    }    
+
+    .articulos{ 
+        top: 493px;
+
+        article:nth-of-type(3){ 
+            display: block;
+        }
+    }    
+
+    article .articulos{
+        width: 30%;
+        top: 600px;
+    }
+
+    #inicio{
+        top: 133px;
+        width: 44%;
+    }
+
+    .banner article{
+        width: 30%;
+        margin: 0px 0.6%;
+    }
+
+    .texto3{
+        display: none;
+    }
+
+    .texto4{
+        display: block;
+    }
+
+    .contenedor-grid{
+        margin: 8em auto 2em;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        #caja1{
+            grid-column: span 2;
+            background-image: url(../img/foto1.jpg);
+        }
+        
+        #caja2{
+            background-image: url(../img/foto4.jpg);
+            grid-row: span 2;
+        }
+        
+        #caja3{
+            background-image: url(../img/foto5.png);
+        }
+        
+        #caja4{
+            background-image: url(../img/foto2.jpg);
+        }
+        
+        #caja5{
+            background-image: url(../img/foto3.jpg);
+        }
+        
+        #caja6{
+            background-image: url(../img/foto12.jpg);
+        }
+    }
+
+    .cajitas{
+        #art6{
+            display: block;
+        }
+
+        article{
+            width: 30%;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+
+    #parte2 .flex img{
+        width: 100%;
+        float: none;
+        margin: 0px;
+    }
+
+    .caracteristicas{
+        width: 40%;
+
+        ul{
+            padding-left: 32px;
+        }
+    
+    }
+
+    .columna1{
+        width: 32%;
+    }
+    
+    .columna2{
+        width: 32%;
+    }
+
+    .columna3{
+        width: 32%;
+    }
+
+    form{
+        table{
+            width: 60%;
+        }
+    
+        textarea{
+            width: 300px;
+            height: 70px;
+        }
+    
+        .datos input{
+            margin-bottom: 39px;
+        }
+    
+    }
+
+    footer{
+        .contenedor{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .titulo h2{
+        font-size: 2em;
+    }
+
+    #caja9{
+        display: block;
+        background-size: cover;
+    }
+
+    .lookbook div{
+        width: 30%;
+    }
+
+    .contenedor-grid3{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+
+        #caja16{
+            background-image: url(../img/foto19.png);
+        }
+        
+        #caja17{
+            background-image: url(../img/foto20.png);
+        }
+    }
+
+    .fotoproducto{
+        width: 24%;
+    }
+
+    .hoja2medio{
+        width: 56%;
+
+        #hoja31024{
+            display: block;
+            width: 40%;
+        }
+    
+        #hoja3celu{
+            display: none;
+        }
+    }
+
+    .relacionados{
+        width: 19%;
+        padding: 3px;
+
+        h3{
+            display: block;
+            margin-bottom: 1em;
+        }
+    }
+
+    #caja25, #caja26, #caja27, #caja28{
+        display: block;
+    }
+
+    #caja22, #caja23 ,#caja24, #caja25{
+        width: 24%;
+    }
+
+    #caja28 img, #caja27 img, #caja26 img{
+        max-width: 100%;
+        width: 61%;
+        justify-content: space-between;
+    }
+
+    #detalles{
+        width: 60%;
+    }
+    
+}
+
+@media all and (min-width:1200px){
+    .icono{
+        width: 12%;
+    }
+
+    .video{
+        height: 564px;
+    }
+
+    #inicio{
+        top: 217px;
+    }
+}
