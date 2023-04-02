@@ -45,8 +45,8 @@
     }
 
     #inicio{
-        top: 129px;
-        width: 60%;
+        width: 60% !important;
+        top: 176px !important;
     }
 
     .contenedor-grid{
@@ -71,7 +71,7 @@
 
     .cajitas{
         p{
-        display: block;
+        display: block !important;
         margin-top: 1em;
         }
 
@@ -131,19 +131,26 @@
         justify-content: space-between;
 
         div{
-            width: 48%;
+            width: 32% !important;
+            margin: 0px auto;
+        }
+
+        #caja7, #caja8, #caja9{
+            display: block !important;
         }
     }
 
     .contenedor-grid3{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
-
-        #caja19, #caja20, #caja21{
-            display: block;
-            width: 32%;
-        }
     }
+
+    #producto{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-between !important;
+    }
+
 
     .fotoproducto{
         width: 48%;
@@ -153,18 +160,20 @@
             flex-wrap: wrap;
             justify-content: space-between;
         }
+
+        
+        #caja19, #caja20, #caja21{
+            display: block !important;
+            width: 32% !important;
+        }
     }
 
     .hoja2medio{
         width: 48%;
-    }
 
-    #caja24{
-        display: block;
-    }
-
-    #caja22, #caja23 ,#caja24{
-        width: 32%;
+        #hoja31024{
+            display: block !important;
+        }
     }
 
     #arriba{
@@ -192,6 +201,24 @@
         display: none;
     }
 
+    .catalogosection{
+    
+        .catalogo{
+   
+            img{
+                max-width: 100%;
+            }
+             
+            #caja24, #caja25{
+                display: block !important;
+            }
+
+            #caja22, #caja23, #caja24, #caja25{
+                width: 24% !important;
+            }
+            
+        }
+    }
 }
 
 @media all and (min-width:1024px){
@@ -219,8 +246,16 @@
     }
 
     #inicio{
-        top: 133px;
-        width: 44%;
+        top: 238px !important;
+        width: 44% !important;
+
+        h1{
+            padding-bottom: 5px;
+        }
+
+        p{
+            padding-bottom: 5px;
+        }
     }
 
     .banner article{
@@ -229,11 +264,11 @@
     }
 
     .texto3{
-        display: none;
+        display: none !important;
     }
 
     .texto4{
-        display: block;
+        display: block !important;
     }
 
     .contenedor-grid{
@@ -270,11 +305,11 @@
 
     .cajitas{
         #art6{
-            display: block;
+            display: block !important;
         }
 
         article{
-            width: 30%;
+            width: 30% !important;
 
             img{
                 width: 100%;
@@ -289,7 +324,7 @@
     }
 
     .caracteristicas{
-        width: 40%;
+        width: 40% !important;
 
         ul{
             padding-left: 32px;
@@ -298,15 +333,15 @@
     }
 
     .columna1{
-        width: 32%;
+        width: 32% !important;
     }
     
     .columna2{
-        width: 32%;
+        width: 32% !important;
     }
 
     .columna3{
-        width: 32%;
+        width: 32% !important;
     }
 
     form{
@@ -337,12 +372,12 @@
     }
 
     #caja9{
-        display: block;
+        display: block !important;
         background-size: cover;
     }
 
     .lookbook div{
-        width: 30%;
+        width: 30% !important;
     }
 
     .contenedor-grid3{
@@ -363,34 +398,38 @@
     }
 
     .hoja2medio{
-        width: 56%;
-
         #hoja31024{
-            display: block;
-            width: 40%;
+            display: block !important;
+            width: 40% !important;
         }
     
         #hoja3celu{
             display: none;
         }
     }
+    
+    .seccion4 table{
+        width: 53% !important;
+    }
 
     .relacionados{
-        width: 19%;
-        padding: 3px;
-
+        width: 20%;
+        
         h3{
-            display: block;
-            margin-bottom: 1em;
+            display: block !important;
+        }
+
+        #caja26, #caja27, #caja28{
+            display: block !important;
+
+            img{
+                padding: 5px;
+            }
         }
     }
 
-    #caja25, #caja26, #caja27, #caja28{
-        display: block;
-    }
-
     #caja22, #caja23 ,#caja24, #caja25{
-        width: 24%;
+        width: 24% !important;
     }
 
     #caja28 img, #caja27 img, #caja26 img{

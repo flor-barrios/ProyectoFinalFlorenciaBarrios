@@ -37,7 +37,7 @@ header .icono2 img {
   width: 30px;
   padding-right: 10px;
 }
-header #logo header .icono {
+header #logo .icono {
   width: 41%;
 }
 header .menu {
@@ -52,6 +52,7 @@ header .menu a {
   color: #645832;
   font-size: 14px;
   font-weight: bold;
+  text-align: right;
 }
 header .icono {
   text-align: right;
@@ -80,11 +81,8 @@ header #activo {
 .banner {
   text-align: center;
 }
-.banner h2 {
+.banner h1 {
   color: black;
-}
-.banner p {
-  padding: 1em;
 }
 .banner a {
   text-decoration: none;
@@ -105,13 +103,13 @@ header #activo {
 }
 .banner #inicio {
   position: absolute;
-  top: 105px;
   color: black;
-  width: 90%;
   max-width: 700px;
   left: 0px;
   right: 0px;
   margin: auto;
+  top: 127px;
+  width: 90%;
 }
 .banner article {
   background-color: #645832;
@@ -140,6 +138,9 @@ article .articulos h3 {
   position: absolute;
   top: 254px;
   justify-content: center;
+}
+.articulos p {
+  padding: 1em;
 }
 .articulos article:nth-of-type(n+2) {
   display: none;
@@ -311,6 +312,9 @@ form button {
 form button button:hover {
   opacity: 1;
 }
+form .columna3 {
+  padding-top: 10px;
+}
 
 .comunidad h2 {
   text-align: center;
@@ -362,7 +366,7 @@ footer p {
   height: 200px;
   text-align: center;
 }
-.titulo h2 {
+.titulo h1 {
   padding: 57px;
   font-size: 2em;
   font-family: "Bitter", serif !important;
@@ -621,8 +625,8 @@ footer p {
     top: 400px;
   }
   #inicio {
-    top: 129px;
-    width: 60%;
+    width: 60% !important;
+    top: 176px !important;
   }
   .contenedor-grid {
     margin: 8em auto 2em;
@@ -641,7 +645,7 @@ footer p {
     background-image: url(../img/foto5.png) !important;
   }
   .cajitas p {
-    display: block;
+    display: block !important;
     margin-top: 1em;
   }
   .cajitas a {
@@ -683,15 +687,20 @@ footer p {
     justify-content: space-between;
   }
   .lookbook div {
-    width: 48%;
+    width: 32% !important;
+    margin: 0px auto;
+  }
+  .lookbook #caja7, .lookbook #caja8, .lookbook #caja9 {
+    display: block !important;
   }
   .contenedor-grid3 {
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
-  .contenedor-grid3 #caja19, .contenedor-grid3 #caja20, .contenedor-grid3 #caja21 {
-    display: block;
-    width: 32%;
+  #producto {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-between !important;
   }
   .fotoproducto {
     width: 48%;
@@ -701,14 +710,15 @@ footer p {
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  .fotoproducto #caja19, .fotoproducto #caja20, .fotoproducto #caja21 {
+    display: block !important;
+    width: 32% !important;
+  }
   .hoja2medio {
     width: 48%;
   }
-  #caja24 {
-    display: block;
-  }
-  #caja22, #caja23, #caja24 {
-    width: 32%;
+  .hoja2medio #hoja31024 {
+    display: block !important;
   }
   #arriba {
     background-size: cover;
@@ -729,6 +739,15 @@ footer p {
   .texto4 {
     display: none;
   }
+  .catalogosection .catalogo img {
+    max-width: 100%;
+  }
+  .catalogosection .catalogo #caja24, .catalogosection .catalogo #caja25 {
+    display: block !important;
+  }
+  .catalogosection .catalogo #caja22, .catalogosection .catalogo #caja23, .catalogosection .catalogo #caja24, .catalogosection .catalogo #caja25 {
+    width: 24% !important;
+  }
 }
 @media all and (min-width: 1024px) {
   .icono {
@@ -748,18 +767,24 @@ footer p {
     top: 600px;
   }
   #inicio {
-    top: 133px;
-    width: 44%;
+    top: 238px !important;
+    width: 44% !important;
+  }
+  #inicio h1 {
+    padding-bottom: 5px;
+  }
+  #inicio p {
+    padding-bottom: 5px;
   }
   .banner article {
     width: 30%;
     margin: 0px 0.6%;
   }
   .texto3 {
-    display: none;
+    display: none !important;
   }
   .texto4 {
-    display: block;
+    display: block !important;
   }
   .contenedor-grid {
     margin: 8em auto 2em;
@@ -787,10 +812,10 @@ footer p {
     background-image: url(../img/foto12.jpg);
   }
   .cajitas #art6 {
-    display: block;
+    display: block !important;
   }
   .cajitas article {
-    width: 30%;
+    width: 30% !important;
   }
   .cajitas article img {
     width: 100%;
@@ -801,19 +826,19 @@ footer p {
     margin: 0px;
   }
   .caracteristicas {
-    width: 40%;
+    width: 40% !important;
   }
   .caracteristicas ul {
     padding-left: 32px;
   }
   .columna1 {
-    width: 32%;
+    width: 32% !important;
   }
   .columna2 {
-    width: 32%;
+    width: 32% !important;
   }
   .columna3 {
-    width: 32%;
+    width: 32% !important;
   }
   form table {
     width: 60%;
@@ -833,11 +858,11 @@ footer p {
     font-size: 2em;
   }
   #caja9 {
-    display: block;
+    display: block !important;
     background-size: cover;
   }
   .lookbook div {
-    width: 30%;
+    width: 30% !important;
   }
   .contenedor-grid3 {
     grid-template-columns: repeat(4, 1fr);
@@ -852,29 +877,30 @@ footer p {
   .fotoproducto {
     width: 24%;
   }
-  .hoja2medio {
-    width: 56%;
-  }
   .hoja2medio #hoja31024 {
-    display: block;
-    width: 40%;
+    display: block !important;
+    width: 40% !important;
   }
   .hoja2medio #hoja3celu {
     display: none;
   }
+  .seccion4 table {
+    width: 53% !important;
+  }
   .relacionados {
-    width: 19%;
-    padding: 3px;
+    width: 20%;
   }
   .relacionados h3 {
-    display: block;
-    margin-bottom: 1em;
+    display: block !important;
   }
-  #caja25, #caja26, #caja27, #caja28 {
-    display: block;
+  .relacionados #caja26, .relacionados #caja27, .relacionados #caja28 {
+    display: block !important;
+  }
+  .relacionados #caja26 img, .relacionados #caja27 img, .relacionados #caja28 img {
+    padding: 5px;
   }
   #caja22, #caja23, #caja24, #caja25 {
-    width: 24%;
+    width: 24% !important;
   }
   #caja28 img, #caja27 img, #caja26 img {
     max-width: 100%;
