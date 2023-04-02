@@ -94,7 +94,7 @@ header{
 .banner{
     text-align: center;
 
-    h2{
+    h1{
         color: black;
     }
 
@@ -424,7 +424,7 @@ footer{
     height: 200px;
     text-align: center;
 
-    h2{
+    h1{
         padding: 57px;
         font-size: 2em;
         font-family: 'Bitter', serif !important;
@@ -704,4 +704,4 @@ footer{
     }
 }
 
-@import "queries"
+@import "queries";
