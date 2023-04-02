@@ -6,7 +6,7 @@
 }
 
 body{
-    font-family: 'Bitter', serif;
+    font-family: 'Bitter', serif !important;
     background: #ebe6d7;
 }
 
@@ -21,65 +21,70 @@ header{
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0));
     background-color: #ebe6d7;
-    
-    nav{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-between;
-        max-width: 100%;
-    }
 
-    #logo img{
-        width: 100%;
-        max-width: 150px;
-    }
+    #navpropio{
+        display: none !important;
 
-    .icono2 img{
-        border-radius: 5px;
-        width: 30px;
-        padding-right: 10px;
-    }
-    
-    #logo .icono{
-        width: 41%;
-    }
-    
-    .menu{
-        flex-grow: 1;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-
-        a{
-            padding: 0.1em;
-            text-decoration: none;
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
             justify-content: space-between;
-            color: #645832;
-            font-size: 14px;
-            font-weight: bold;
+            max-width: 100%;
+        }
+    
+        #logo img{
+            width: 100%;
+            max-width: 150px;
+        }
+    
+        .icono2 img{
+            border-radius: 5px;
+            width: 30px;
+            padding-right: 10px;
+        }
+        
+        #logo .icono{
+            width: 41%;
+        }
+        
+        .menu{
+            flex-grow: 1;
+            margin-top: 0.5em;
+            margin-bottom: 0.5em;
+    
+            a{
+                padding: 0.1em;
+                text-decoration: none;
+                justify-content: space-between;
+                color: #645832;
+                font-size: 14px;
+                font-weight: bold;
+                text-align: right;
+            }
+        }
+        
+        .icono{
             text-align: right;
+        }
+    
+        div a:hover{
+            color: black;
+            border-bottom: 1px solid white;
+            border-radius: 5px;
+        }
+    
+        #activo:hover{
+            text-decoration-line: underline;
+        }
+        
+        #activo{
+            text-decoration-line: underline;
+            color: black;
         }
     }
     
-    .icono{
-        text-align: right;
-    }
-
-    div a:hover{
-        color: black;
-        border-bottom: 1px solid white;
-        border-radius: 5px;
-    }
-
-    #activo:hover{
-        text-decoration-line: underline;
-    }
-    
-    #activo{
-        text-decoration-line: underline;
-        color: black;
-    }
-    
+   
 }
 
 .video{

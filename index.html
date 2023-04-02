@@ -7,11 +7,12 @@
     <meta name="description" content="Contamos con los muebles mas inovadores que se desarrollan en Uruguay"> 
     <meta name="Keywords" content="muebles, tendencias">
     <title>Florencia Muebleria</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/estilos.css">
 </head>
 <body>
     <header>
-        <nav class="contenedor">
+        <nav class="contenedor" id="navpropio">
             <a href="index.html" id="logo">
                 <img src="./img/logo.png" alt="logo">
             </a>
@@ -29,6 +30,31 @@
                 <a href="./HTML/contacto.html" class="comunes">CONTACTO</a>
             </div>
         </nav>
+
+        <div class="collapse" id="navbarToggleExternalContent">
+            <div class="bg p-4">
+              <a href="index.html">
+              <h4 class="text h4">FLORENCIA</h4>
+              </a>
+              <a href="./HTML/shop.html">
+                <h4 class="text h4">SHOP</h4>
+              </a>
+              <a href="./HTML/sucursales.html">
+                  <h4 class="text h4">SUCURSALES</h4>
+              </a>
+              <a href="./HTML/contacto.html">
+                <h4 class="text h4">CONTACTO</h4>
+              </a>
+            </div>
+          </div>
+          <nav class="navbar navbar bg">
+            <div class="container-fluid">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            </div>
+          </nav>
+        
     </header>
 
     <section class="video">
