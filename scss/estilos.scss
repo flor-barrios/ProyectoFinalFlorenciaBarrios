@@ -22,6 +22,10 @@ header{
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0));
     background-color: #ebe6d7;
 
+    .hambur{
+        display: block !important;
+    }
+
     #navpropio{
         display: none !important;
 
