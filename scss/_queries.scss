@@ -1,20 +1,33 @@
 @media all and (min-width: 768px){
 
-    #navpropio{
-        display: block !important;
+    #navmio{
+        display: flex !important;
+
+        .logo img {
+            max-width: 150px;
+        }
+
+        nav{
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            max-width: 100%;
+        }
+         
     }
 
-    .hambur{
+    #navhambur{
         display: none !important;
     }
 
-    #logo{
+     #logo{
         width: 20%;
     }
 
     .icono{
         width: 19%;
-        order: 3;
+        order: 3 !important;
     }
 
     .icono2{
@@ -22,11 +35,25 @@
     }
 
     .menu{
+        flex-grow: 1 !important;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
         text-align: right;
+        order: 2 !important;
 
         a{
+            padding: 0.1em;
+            text-decoration: none;
+            justify-content: space-between;
+            color: #645832;
             font-size: 1.2em;
+            font-weight: bold;
+            text-align: right;
         }
+    }
+
+    .video{
+        margin-top: 1em;
     }
 
     .banner{ 
@@ -152,6 +179,7 @@
     .contenedor-grid3{
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        max-width: 90%;
     }
 
     #producto{
@@ -228,6 +256,15 @@
             
         }
     }
+
+    .col-12{
+        width: 50%;
+    }
+
+    #infoflorida{
+        order: 2;
+    }
+
 }
 
 @media all and (min-width:1024px){
@@ -333,7 +370,7 @@
     }
 
     .caracteristicas{
-        width: 40% !important;
+        width: 37% !important;
 
         ul{
             padding-left: 32px;
@@ -449,6 +486,10 @@
 
     #detalles{
         width: 60%;
+    }
+
+    .row h3{
+        margin-top: 1em;
     }
     
 }
