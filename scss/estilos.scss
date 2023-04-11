@@ -24,13 +24,30 @@ body{
 }
 
 header{
-    padding-top: 1em;
     width: 100%;
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.795), rgba(255, 255, 255, 0));
     background-color: #ebe6d7;
 
     #navmio{
         display: none;
+    }
+
+    #navhambur{
+        position: static;
+
+        .offcanvas{
+            background-color: #ebe6d7;
+
+            h5{
+                color: #645832;
+            }
+
+            li{
+                a{
+                    color: #645832;
+                }    
+            }
+        }
     }
 
     .logo img{
@@ -67,8 +84,6 @@ header{
 
 .video{
     overflow: hidden;
-    margin-bottom: 1em;
-    margin-top: 3em;
 
     video{
         width: 100%;
@@ -386,7 +401,6 @@ footer{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-top: 1em;
     }
 
     .contenedor{
@@ -670,21 +684,22 @@ footer{
 
     button{
         text-decoration: none; 
-        color: #645832; 
-        border: 1px solid #ebc8bc; 
+        color: #645832 !important; 
+        border: 1px solid #ebc8bc !important; 
         background-color: white;
         border-radius: 10px;
         padding: 0.5em;
         display: flex;
         float: right;
         text-shadow: none;
-        opacity: 0.8;
+        opacity: 0.8 !important;
         transition: all 0.2s;
         font-size: 0.8em;
     }
 
     button:hover{
-        opacity: 1;
+        opacity: 1 !important;
+        background-color: white;
     }
 
     label{
