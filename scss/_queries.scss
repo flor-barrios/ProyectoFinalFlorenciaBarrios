@@ -1,3 +1,31 @@
+@media all and (min-width: 375px){
+    .columna2{
+        fieldset{
+            width: 86%;
+        }
+
+        .medio label{
+           width: 24%;
+        }
+    }
+
+    label{
+        margin-right: 0.5em;
+    }
+
+    .contenedor-grid{
+        margin: 8em auto 2em;
+    }
+}
+
+@media all and (min-width: 425px){
+    .contenedor-grid{
+        margin: 5em auto 2em;
+    }
+}
+
+
+
 @media all and (min-width: 768px){
 
     #navmio{
@@ -125,6 +153,7 @@
 
     form{
         margin: 1em;
+        justify-content: space-between;
 
         fieldset{
             div{
@@ -137,7 +166,8 @@
         }
     
         .columna2{
-        width: 48%;
+            display: block ;
+            width: 48%;
         }
 
         .columna3{
@@ -386,6 +416,10 @@
     
     .columna2{
         width: 32% !important;
+
+        fieldset{
+            width: 100%;
+        }
     }
 
     .columna3{

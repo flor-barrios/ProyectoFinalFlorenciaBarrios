@@ -228,7 +228,7 @@ form {
   padding: 1em;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
 }
 form fieldset {
   border: none;
@@ -236,6 +236,25 @@ form fieldset {
 form fieldset div {
   display: flex;
   flex-wrap: wrap;
+}
+form .columna2 {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+form .columna2 fieldset {
+  order: 3;
+  padding: 5px 0;
+}
+form .columna2 #tipo {
+  margin: 0.5em 0.5em;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  border: 1px solid #ebc8bc;
+  border-radius: 6px;
+  background: #ebc8bc;
+  width: 70%;
 }
 form .datos label {
   display: block;
@@ -259,18 +278,6 @@ form .datos input input:hover {
 form .datos input input ::placeholder {
   color: #ebc8bc;
   font-size: 14px;
-}
-form #tipo {
-  margin: 1.5em 1.5em;
-  display: flex;
-  flex-wrap: wrap;
-  padding: 5px;
-  border: 1px solid #ebc8bc;
-  border-radius: 6px;
-  background: #ebc8bc;
-}
-form label {
-  margin-right: 0.5em;
 }
 form legend {
   font-weight: bold;
@@ -610,6 +617,25 @@ footer p {
   margin-top: 5px !important;
 }
 
+@media all and (min-width: 375px) {
+  .columna2 fieldset {
+    width: 86%;
+  }
+  .columna2 .medio label {
+    width: 24%;
+  }
+  label {
+    margin-right: 0.5em;
+  }
+  .contenedor-grid {
+    margin: 8em auto 2em;
+  }
+}
+@media all and (min-width: 425px) {
+  .contenedor-grid {
+    margin: 5em auto 2em;
+  }
+}
 @media all and (min-width: 768px) {
   #navmio {
     display: flex !important;
@@ -708,6 +734,7 @@ footer p {
   }
   form {
     margin: 1em;
+    justify-content: space-between;
   }
   form fieldset div {
     display: inline-block;
@@ -716,6 +743,7 @@ footer p {
     width: 48%;
   }
   form .columna2 {
+    display: block;
     width: 48%;
   }
   form .columna3 {
@@ -894,6 +922,9 @@ footer p {
   }
   .columna2 {
     width: 32% !important;
+  }
+  .columna2 fieldset {
+    width: 100%;
   }
   .columna3 {
     width: 32% !important;

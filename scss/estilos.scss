@@ -266,7 +266,7 @@ form{
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 
     fieldset{
         border: none;
@@ -274,6 +274,29 @@ form{
         div{
             display: flex;
             flex-wrap: wrap;
+        }
+    }
+
+    .columna2{
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+
+        fieldset{
+            order: 3;
+            padding: 5px 0;
+        }
+
+        #tipo{
+            margin: 0.5em 0.5em;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 5px;
+            border: 1px solid #ebc8bc;
+            border-radius: 6px;
+            background: #ebc8bc;
+            width: 70%;
+    
         }
     }
 
@@ -305,20 +328,7 @@ form{
             }
         }
     }   
-    
-    #tipo{
-        margin: 1.5em 1.5em;
-        display: flex;
-        flex-wrap: wrap;
-        padding: 5px;
-        border: 1px solid #ebc8bc;
-        border-radius: 6px;
-        background: #ebc8bc;
-    }
-    
-    label{
-        margin-right: 0.5em;
-    }
+
     
     legend{
          font-weight: bold;
